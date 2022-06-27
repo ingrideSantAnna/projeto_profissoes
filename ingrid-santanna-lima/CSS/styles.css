@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+html
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+body
+{
+    margin: 0;
+    font-family:'Bree Serif', serif;
+    width: 100vw;
+}
+/*estilização dos botões home*/
+.container-home {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 22%;
+    top: 26%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.quadrado-a {
+    background: #345F77;
+    width: 630px;
+    height: 350px;
+    margin-top: 30px;
+    background-image: url(../img/fashiontext.png);
+    background-repeat: no-repeat ;
+    background-size: 60%;
+    background-position: 40%;
+}
+.quadrado-c {
+  background: #5A6978;
+  width: 330px;
+  height: 420px;
+  margin-top: -335px;
+  margin-left: 550px;
+  position: relative;
+}
+.quadrado-c img{
+  width: 300px;
+  height: 390px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.quadrado-r {
+  background: #E7B29D;
+  width: 650px;
+  height: 330px;
+  margin-top: -380px;
+  margin-left: 850px;
+}
+
+.quadrado-ce {
+  background: #363C39;
+  width: 450px;
+  height: 300px;
+  margin-top: -120px;
+  margin-left: 800px;
+  z-index: 1;
+  position: relative;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #e9e9e9;
+}
+
+
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #345F77;
+  outline: none;
+  transition: 1s ease-in-out;
+  
+}
+.menu .btn span a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+svg {
+    position:absolute;
+    left: 0;
+    top: 0;
+    fill: none; 
+}
+
+.btn:hover {
+  transition: 0.5s ease-in-out;
+  background: #536e8834;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -300;
+}
+
+.btn span {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/*fim estilização botões home*/
+
+
+header .container{
+    max-width: 1920px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px; 
+}
+
+header .container .icons ion-icon{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    height: 100px;
+    
+
+}
+
+header .container .logo{
+     display: flex;
+     height: 150px;
+
+}
+
+header .container .menu ul{
+    text-decoration: none;
+    
+}
+
+header .container .titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.container{
+  max-width: 1920px;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: space-evenly;
+   
+
+}
+.linha1{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  top: -380px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+}
+.linha{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  top: -650px;
+  height: 625px;
+  width: 10px;
+  background-color: #345F77;
+}
+section #home{
+  position: relative;
+  margin: 0;
+  height: 600px;
+  background-color: #e9e9e9;
+}
+section #sobre{
+  position: relative;
+  margin: 0;
+  height: 370px;
+  background-color: #e9e9e9;
+}
+section #sobre img{
+  position: relative;
+  top: -690px;
+  margin-left: 1000px;
+
+}
+section .comoatua{
+  position: relative;
+  margin: 0;
+  margin-top: -600px;
+  height: 370px;
+  background-color: #e9e9e9;
+}
+section #sobre .titulo{
+    position: relative;
+    margin-left: 80px;
+    top: 20px;
+    font-size: 26px;
+}
+section #sobre .texto{
+  position: relative;
+  margin-left: 7%;
+  margin-right: 550px;
+  font-size: 20px;
+}
+
+.quadrado-a2 {
+  background: #E7B29D;
+  width: 600px;
+  height: 480px;
+  margin-top: 520px;
+  z-index: 1;
+  position: relative;
+}
+
+.quadrado-c2 {
+  background: #EED2D2;
+  width: 600px;
+  height: 400px;
+  margin-top: -370px;
+  margin-left: 27%;
+  z-index: 1;
+  position: relative;
+}
+
+.linha3{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  margin-top: 20%;
+  top: -50px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+}
+
+.linha4{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  margin-top: 20%;
+  top: -50px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+}
+
+section #pós img{
+  position: relative;
+  top: 0px;
+  margin-top: 0%;
+  width: 450;
+  height: 350;
+  margin-left: 0%;
+  
+}
+
+.quadrado-a3{
+  background:#345F77;
+  width: 600px;
+  height: 480px;
+  margin-top: 20%;
+  z-index: 1;
+  position: relative;
+  align-items: center;
+  justify-content: center; 
+}
+.quadrado-a3 img{
+  width: 500px;
+  align-items: center;
+}
+
+.quadrado-c3 {
+  background: #EED2D2;
+  width: 600px;
+  height: 400px;
+  margin-top: -390px;
+  margin-left: 27%;
+  z-index: 1;
+  position: relative;
+  
+}  
+
+.linha5{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  margin-top: 20%;
+  top: -50px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+}
+
+.linha6{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  margin-top: 20%;
+  top: -50px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+  
+}
+
+.quadrado-a4{
+  background:#345F77;
+  width: 600px;
+  height: 480px;
+  margin-top: 20%;
+  z-index: 1;
+  position: relative;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+.quadrado-c4{
+  background: #EED2D2;
+  width: 600px;
+  height: 400px;
+  margin-top: -390px;
+  margin-left: 27%;
+  z-index: 1;
+  position: relative;
+  
+}
+
+.linha7{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  margin-top: 20%;
+  top: -50px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+  
+}
+
+.linha8{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 1289px;
+  margin-top: 30%;
+  top: -50px;
+  height: 360px;
+  width: 10px;
+  background-color: #345F77;
+  
+}
+
+section .grade{
+  position: relative;
+  margin: 0;
+  margin-top: -600px;
+  height: 370px;
+  background-color: #e9e9e9;
+}
+  
+  
+
